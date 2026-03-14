@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import elviraBrushes from '../../public/elvira-brushes.webp'
 import { Clock, Wallet, Sparkles, Heart } from 'lucide-react'
 
 const cards = [
@@ -87,7 +88,7 @@ export default function ForWhom() {
             <div className="relative">
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] rounded-full bg-gradient-to-br from-champagne-100 via-nude-100 to-champagne-200 opacity-70" />
               <img
-                src="/elvira-brushes.webp"
+                src={elviraBrushes}
                 alt="Эльвира Бакытбековна"
                 className="relative z-10 w-56 sm:w-72 h-auto object-contain drop-shadow-xl"
                 loading="lazy"

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import elviraStanding from '../../public/elvira-standing.webp'
 import { ArrowRight } from 'lucide-react'
 
 export default function FinalCTA() {
@@ -20,7 +21,7 @@ export default function FinalCTA() {
             <div className="relative">
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] rounded-full bg-gradient-to-br from-champagne-200 via-nude-100 to-champagne-100 opacity-60" />
               <img
-                src="/elvira-standing.webp"
+                src={elviraStanding}
                 alt="Эльвира Бакытбековна"
                 className="relative z-10 w-56 sm:w-72 h-auto object-contain drop-shadow-xl"
                 loading="lazy"

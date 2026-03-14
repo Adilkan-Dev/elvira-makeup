@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Zap, Check, Gift, Shield, ArrowRight } from 'lucide-react'
+import elviraPink from '../../public/elvira-pink.webp'
 
 const features = [
   'Макияждын 5 түрүн үйрөнөсүз',
@@ -52,7 +53,7 @@ export default function Pricing() {
             <div className="relative">
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[260px] h-[260px] rounded-full bg-champagne-500/10 blur-2xl" />
               <img
-                src="/elvira-pink.webp"
+                src={elviraPink}
                 alt="Эльвира Бакытбековна"
                 className="relative z-10 w-72 h-auto object-contain drop-shadow-2xl"
                 loading="lazy"

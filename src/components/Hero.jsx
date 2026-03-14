@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, Star, Award, Users } from 'lucide-react'
+import elviraHeroWebp from '../../public/elvira-hero.webp'
+import elviraHeroPng from '../../public/elvira-hero.png'
 
 const floatingVariants = {
   animate: {
@@ -161,9 +163,9 @@ export default function Hero() {
 
               {/* Cutout image */}
               <picture>
-                <source srcSet="/elvira-hero.webp" type="image/webp" />
+                <source srcSet={elviraHeroWebp} type="image/webp" />
                 <img
-                  src="/elvira-hero.png"
+                  src={elviraHeroPng}
                   alt="Эльвира Бакытбековна — Beauty Expert"
                   className="relative z-10 w-64 sm:w-80 lg:w-[400px] h-auto object-contain drop-shadow-2xl"
                   loading="eager"
